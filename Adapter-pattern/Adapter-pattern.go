@@ -53,3 +53,16 @@ func main() {
 	}
 	client.chargeMobile(androidAdapter)
 }
+
+/*
+What Is  Adapter Pattern
+In Golang, the Adapter Pattern is used to make a type compatible with an interface it doesn’t implement directly. It helps convert one type into another by wrapping it with an adapter struct that implements the target interface.
+
+Go doesn’t use inheritance — instead, it relies heavily on interfaces and composition, making the adapter pattern a perfect fit.
+
+Why use the Adapter Pattern in Go?
+	1.	Interface compatibility: To allow a type with a different method signature to satisfy an expected interface.
+	2.	Legacy code integration: To use older or third-party code without modifying it.
+	3.	Plug-and-play architecture: To make different components work together cleanly by adapting their interfaces.
+
+*/
