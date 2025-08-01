@@ -2,7 +2,6 @@
  * Software entities (Classes ,modules,methods etc) should be open for
  * extensionn but closed for modification.
  */
-
 interface Shape {
     double calculateArea();
 }
@@ -50,7 +49,7 @@ class Triangle implements Shape {
     }
 }
 
-public class Ocp {
+class Ocp {
     public static void main(String[] args) {
         Shape circle = new Circle(5.0);
         Shape rectangle = new Rectangle(4, 5);
